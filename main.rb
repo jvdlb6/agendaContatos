@@ -8,12 +8,13 @@ contatos = {
 opcao = ""
 
 begin
-  puts "\n=== AGENDA ==="
+  puts "\n=== AGENDA === \n\n"
   puts "Adicionar"
   puts "Listar"
   puts "Buscar"
-  puts "Sair"
-  print "Escolha uma opção: "
+  puts "Sair \n\n"
+  print "Escolha uma opção: \n\n"
+  print ">"
 
   opcao = gets.chomp.downcase
 
